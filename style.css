@@ -95,8 +95,8 @@ main {
 
 
 .home-right img {
-    max-width: 450px;
-    height: 350px;
+    max-width: 300px;
+    height: 320px;
     border:none;
     border-radius: 50%;
     box-shadow: 10px 10px 50px chartreuse; 
@@ -120,14 +120,16 @@ img:hover{
 }
 
 .about-desc {
-    width: 60%;
+    /* width: 60%; */
     /* border: 2px solid black; */
     margin: auto;
-    padding: 20px 35px;
-    padding-right: 15px;
+    padding: 15px ;
     font-weight: 500;
     font-size: 22px;
+    word-wrap: break-word;
 }
+
+ 
 
 /* .about-but {
     display: flex;
@@ -418,8 +420,8 @@ footer hr {
 
 
     .home-right img {
-        max-width: 500px;
-        height: 350px;       
+        max-width: 280px;
+        height: 300px;       
         border-radius: 50%;
         box-shadow: 10px 10px 50px chartreuse;
     }
